@@ -180,3 +180,18 @@ footer {
 @media (max-width: 600px) {
   .contacto-form, .contacto-directo { max-width: 98vw; padding: 1em; }
 }
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 1.2em;
+  margin-top: 0.5em;
+}
+.icono-red {
+  width: 36px;
+  height: 36px;
+  transition: transform 0.15s;
+}
+.icono-red:hover {
+  transform: scale(1.17);
+  filter: brightness(1.1);
+}
